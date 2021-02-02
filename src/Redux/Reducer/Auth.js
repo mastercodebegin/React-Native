@@ -19,7 +19,7 @@ initialstate = {
 };
 export default (state = initialstate, action) => {
   
-//All files
+
   switch (action.type) {
     case 'User_Login_Request':
       return { ...state, isFetching: true };
